@@ -13,6 +13,8 @@
 		ABCABE1228C42FE70050DA82 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABCABE1128C42FE70050DA82 /* Preview Assets.xcassets */; };
 		ABCABE1928C43A610050DA82 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABCABE1828C43A610050DA82 /* CircleImage.swift */; };
 		ABCABE1B28C48D1B0050DA82 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABCABE1A28C48D1B0050DA82 /* MapView.swift */; };
+		ABCABE1D28C4CC0F0050DA82 /* landmarkData.json in Resources */ = {isa = PBXBuildFile; fileRef = ABCABE1C28C4CC0F0050DA82 /* landmarkData.json */; };
+		ABCABE2128C4CD690050DA82 /* Landmark.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABCABE2028C4CD690050DA82 /* Landmark.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +25,8 @@
 		ABCABE1128C42FE70050DA82 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		ABCABE1828C43A610050DA82 /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
 		ABCABE1A28C48D1B0050DA82 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		ABCABE1C28C4CC0F0050DA82 /* landmarkData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = landmarkData.json; sourceTree = "<group>"; };
+		ABCABE2028C4CD690050DA82 /* Landmark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Landmark.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +59,8 @@
 		ABCABE0928C42FE50050DA82 /* Landmarks */ = {
 			isa = PBXGroup;
 			children = (
+				ABCABE1C28C4CC0F0050DA82 /* landmarkData.json */,
+				ABCABE2028C4CD690050DA82 /* Landmark.swift */,
 				ABCABE0A28C42FE50050DA82 /* LandmarksApp.swift */,
 				ABCABE0C28C42FE50050DA82 /* ContentView.swift */,
 				ABCABE0E28C42FE70050DA82 /* Assets.xcassets */,
@@ -133,6 +139,7 @@
 			files = (
 				ABCABE1228C42FE70050DA82 /* Preview Assets.xcassets in Resources */,
 				ABCABE0F28C42FE70050DA82 /* Assets.xcassets in Resources */,
+				ABCABE1D28C4CC0F0050DA82 /* landmarkData.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -147,6 +154,7 @@
 				ABCABE1B28C48D1B0050DA82 /* MapView.swift in Sources */,
 				ABCABE0B28C42FE50050DA82 /* LandmarksApp.swift in Sources */,
 				ABCABE1928C43A610050DA82 /* CircleImage.swift in Sources */,
+				ABCABE2128C4CD690050DA82 /* Landmark.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,11 +278,11 @@
 		ABCABE1628C42FE70050DA82 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-1";
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Landmarks/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "Landmarks/Preview\\ Content";
 				DEVELOPMENT_TEAM = 5TXX7B273Y;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -287,7 +295,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.3;
 				PRODUCT_BUNDLE_IDENTIFIER = github.com.djmin43.Landmarks;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -299,11 +307,11 @@
 		ABCABE1728C42FE70050DA82 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-1";
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Landmarks/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "Landmarks/Preview\\ Content";
 				DEVELOPMENT_TEAM = 5TXX7B273Y;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -316,7 +324,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.3;
 				PRODUCT_BUNDLE_IDENTIFIER = github.com.djmin43.Landmarks;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;

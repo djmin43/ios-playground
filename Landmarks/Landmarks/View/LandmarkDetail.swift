@@ -8,41 +8,44 @@
 import SwiftUI
 
 struct LandmarkDetail: View {
+    var landmark: Landmark
+    
     var body: some View {
         VStack{
-            
-            MapView()
-                .ignoresSafeArea(edges: .top)
-                .frame(height: 300)
-            CircleImage()
-                .offset(y: -130)
-                .padding(.bottom, -130)
-            
-            VStack(alignment: .leading) {
-                Text("TurtleRock")
-                    .font(.title)
-                HStack {
-                    Text("Joshua Tree National Park")
-                        .font(.subheadline)
-                    Spacer()
-                    Text("California")
-                        .font(.subheadline)
+            ScrollView{
+                MapView(coordinate: landmark.locationCoordinate)
+                    .ignoresSafeArea(edges: .top)
+                    .frame(height: 300)
+                CircleImage(image: landmark.image)
+                    .offset(y: -130)
+                    .padding(.bottom, -130)
+                
+                VStack(alignment: .leading) {
+                    Text(landmark.name)
+                        .font(.title)
+                    HStack {
+                        Text(landmark.park)
+                            .font(.subheadline)
+                        Spacer()
+                        Text(landmark.state)
+                            .font(.subheadline)
+                    }
+                    Divider()
+                    Text("About \(landmark.name)")
+                        .font(.title2)
+                    Text(landmark.description)
                 }
-                Divider()
-                Text("About Turtle Rock")
-                    .font(.title2)
-                Text("Descriptive text goes here.")
+                .padding()
             }
-            .padding()
+            .navigationTitle(landmark.name)
+            .navigationBarTitleDisplayMode(.inline)
             
-            Spacer()
         }
-        
     }
 }
 
 struct LandmarkDetail_Previews: PreviewProvider {
     static var previews: some View {
-        LandmarkDetail()
+        LandmarkDetail(landmark: landmarks[0])
     }
 }

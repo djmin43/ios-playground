@@ -2,8 +2,9 @@
 import SwiftUI
 
 struct ContentView: View {
-    var body: some View {
-        return Text("Hello, CS193p!").padding()
+    var body: some View{
+        
+        return RoundedRectangle(cornerRadius: 25.0)
     }
 }
 

@@ -16,8 +16,11 @@ struct ContentView: View {
 }
 
 struct CardView: View {
+    var isFaceUp: Bool { return false}
+    
     var body: some View {
         ZStack {
+            if isFaceUp {
             RoundedRectangle(cornerRadius: 25.0)
                 .fill()
                 .foregroundColor(.white)
@@ -25,6 +28,11 @@ struct CardView: View {
                 .stroke(lineWidth: 3)
             Text("💁🏿")
                 .font(.largeTitle)
+            } else {
+                RoundedRectangle(cornerRadius: 25.0)
+                    .fill()
+                
+            }
         }
     }
 }

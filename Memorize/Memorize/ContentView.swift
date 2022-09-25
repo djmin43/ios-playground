@@ -4,10 +4,10 @@ import SwiftUI
 struct ContentView: View {
     var body: some View{
         HStack{
-            CardView()
-            CardView()
-            CardView()
-            CardView()
+            CardView(isFaceUp: true)
+            CardView(isFaceUp: false )
+            CardView(isFaceUp: true)
+            CardView(isFaceUp: false)
         }
         .padding(.horizontal)
         .foregroundColor(.red)
@@ -16,7 +16,7 @@ struct ContentView: View {
 }
 
 struct CardView: View {
-    var isFaceUp: Bool { return false}
+    var isFaceUp: Bool
     
     var body: some View {
         ZStack {

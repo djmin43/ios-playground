@@ -16,7 +16,7 @@ struct ContentView: View {
 }
 
 struct CardView: View {
-    var content: String = ""
+    var content: String
     @State var isFaceUp: Bool = true
     
     var body: some View {

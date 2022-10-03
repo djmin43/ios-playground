@@ -16,6 +16,7 @@ struct ContentView: View {
 }
 
 struct CardView: View {
+    var content: String
     @State var isFaceUp: Bool = true
     
     var body: some View {
@@ -24,8 +25,7 @@ struct CardView: View {
             if isFaceUp {
                 shape.fill().foregroundColor(.white)
                 shape.stroke(lineWidth: 3)
-                Text("💁🏿")
-                    .font(.largeTitle)
+                Text("💁🏿").font(.largeTitle)
             } else {
                 RoundedRectangle(cornerRadius: 25.0)
                     .fill()

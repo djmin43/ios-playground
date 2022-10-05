@@ -2,13 +2,13 @@
 import SwiftUI
 
 struct ContentView: View {
-    var emojis = ["😇","👀","🐰","☃️"]
+    var emojis = ["😇","👀","🐰","☃️", "🍊", "🦊", "🐦", "🍄", "🪺", "🥥", "🍉", "🏌️‍♂️", "⛳️", "🚜", "🎪", "🎮", "🧼", "🧺", "🧔‍♂️", "👾", "🥷", "🧜‍♀️", "🧚‍♂️", "🙇‍♀️"]
     
     var body: some View{
         HStack{
-            ForEach(emojis, id:\.self, content: { emoji in
+            ForEach(emojis, id:\.self) { emoji in
                 CardView(content: emoji)
-            })
+            }
         }
         .padding(.horizontal)
         .foregroundColor(.red)

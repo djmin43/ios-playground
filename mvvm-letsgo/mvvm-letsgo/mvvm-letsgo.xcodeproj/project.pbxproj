@@ -12,6 +12,7 @@
 		ABFF614129053F02009E64C0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABFF614029053F02009E64C0 /* Assets.xcassets */; };
 		ABFF614429053F02009E64C0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABFF614329053F02009E64C0 /* Preview Assets.xcassets */; };
 		ABFF614B29053FC5009E64C0 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABFF614A29053FC5009E64C0 /* Person.swift */; };
+		ABFF614D29054045009E64C0 /* PersonViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABFF614C29054045009E64C0 /* PersonViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		ABFF614029053F02009E64C0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ABFF614329053F02009E64C0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		ABFF614A29053FC5009E64C0 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		ABFF614C29054045009E64C0 /* PersonViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 				ABFF613C29053F00009E64C0 /* mvvm_letsgoApp.swift */,
 				ABFF613E29053F00009E64C0 /* PeopleView.swift */,
 				ABFF614A29053FC5009E64C0 /* Person.swift */,
+				ABFF614C29054045009E64C0 /* PersonViewModel.swift */,
 				ABFF614029053F02009E64C0 /* Assets.xcassets */,
 				ABFF614229053F02009E64C0 /* Preview Content */,
 			);
@@ -143,6 +146,7 @@
 				ABFF614B29053FC5009E64C0 /* Person.swift in Sources */,
 				ABFF613F29053F00009E64C0 /* PeopleView.swift in Sources */,
 				ABFF613D29053F00009E64C0 /* mvvm_letsgoApp.swift in Sources */,
+				ABFF614D29054045009E64C0 /* PersonViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

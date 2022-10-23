@@ -11,15 +11,30 @@ struct PeopleView: View {
     @ObservedObject var viewModel = PersonViewModel()
     
     var body: some View {
-        HStack {
-            Text("Hello, world!")
-                .font(.title)
-                .fontWeight(.bold)
-            Spacer()
-            VStack(alignment: .trailing) {
-                Text("555-5555")
-                Text("email@email.com")
+        ZStack(alignment: .bottomTrailing) {
+            ScrollView {
+                ForEach(viewModel.people) { person in
+                    HStack {
+                        Text(person.name)
+                            .font(.title)
+                            .fontWeight(.bold)
+                        Spacer()
+                        VStack(alignment: .trailing) {
+                            Text(person.phoneNumber)
+                            Text(person.email)
+                        }
+                    }
+                    .frame(height: 80)
+                    .padding(12)
+                }
             }
+            Menu("Menu".uppercased()) {
+                Button("Reverse", action: { viewModel.reverseOrder()})
+                Button("Shuffle", action: { viewModel.shuffleOrder()})
+                Button("Remove last", action: { viewModel.removeLastPerson()})
+                Button("Remove first", action: { viewModel.removeFirstPerson()})
+            }
+            .padding(12)
         }
     }
 }

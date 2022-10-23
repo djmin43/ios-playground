@@ -8,17 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		ABFF613D29053F00009E64C0 /* mvvm_letsgoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABFF613C29053F00009E64C0 /* mvvm_letsgoApp.swift */; };
-		ABFF613F29053F00009E64C0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABFF613E29053F00009E64C0 /* ContentView.swift */; };
+		ABFF613F29053F00009E64C0 /* PeopleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABFF613E29053F00009E64C0 /* PeopleView.swift */; };
 		ABFF614129053F02009E64C0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABFF614029053F02009E64C0 /* Assets.xcassets */; };
 		ABFF614429053F02009E64C0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABFF614329053F02009E64C0 /* Preview Assets.xcassets */; };
+		ABFF614B29053FC5009E64C0 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABFF614A29053FC5009E64C0 /* Person.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		ABFF613929053F00009E64C0 /* mvvm-letsgo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "mvvm-letsgo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABFF613C29053F00009E64C0 /* mvvm_letsgoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mvvm_letsgoApp.swift; sourceTree = "<group>"; };
-		ABFF613E29053F00009E64C0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		ABFF613E29053F00009E64C0 /* PeopleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleView.swift; sourceTree = "<group>"; };
 		ABFF614029053F02009E64C0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ABFF614329053F02009E64C0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		ABFF614A29053FC5009E64C0 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +54,8 @@
 			isa = PBXGroup;
 			children = (
 				ABFF613C29053F00009E64C0 /* mvvm_letsgoApp.swift */,
-				ABFF613E29053F00009E64C0 /* ContentView.swift */,
+				ABFF613E29053F00009E64C0 /* PeopleView.swift */,
+				ABFF614A29053FC5009E64C0 /* Person.swift */,
 				ABFF614029053F02009E64C0 /* Assets.xcassets */,
 				ABFF614229053F02009E64C0 /* Preview Content */,
 			);
@@ -137,7 +140,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ABFF613F29053F00009E64C0 /* ContentView.swift in Sources */,
+				ABFF614B29053FC5009E64C0 /* Person.swift in Sources */,
+				ABFF613F29053F00009E64C0 /* PeopleView.swift in Sources */,
 				ABFF613D29053F00009E64C0 /* mvvm_letsgoApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

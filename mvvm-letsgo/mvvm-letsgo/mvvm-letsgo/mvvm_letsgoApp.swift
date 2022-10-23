@@ -11,7 +11,7 @@ import SwiftUI
 struct mvvm_letsgoApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            PeopleView()
         }
     }
 }

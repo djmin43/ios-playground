@@ -20,6 +20,18 @@ struct ContentView: View {
                 Color.blue.ignoresSafeArea()
                 SmallCircle(scale: 1.7, foregroundColor: .white.opacity(0.15))
                 SmallCircle(scale: 1.35, foregroundColor: .white)
+                
+                VStack {
+                    Text("Login")
+                        .font(.largeTitle)
+                        .bold()
+                        .padding()
+                    TextField("Username", text: $username)
+                        .padding()
+                        .frame(width: 300, height: 50)
+                        .background(Color.black.opacity(0.05))
+                        .cornerRadius(10)
+                }
             }
             .navigationBarHidden(true)
         }

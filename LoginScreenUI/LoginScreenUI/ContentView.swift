@@ -15,8 +15,27 @@ struct ContentView: View {
     @State private var showingLoginScreen = false
     
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        NavigationView{
+            ZStack{
+                Color.blue.ignoresSafeArea()
+                SmallCircle(scale: 1.7, foregroundColor: .white.opacity(0.15))
+                SmallCircle(scale: 1.35, foregroundColor: .white)
+            }
+            .navigationBarHidden(true)
+        }
+        
+    }
+}
+
+struct SmallCircle: View {
+    var scale: CGFloat
+    var foregroundColor: Color
+    
+    var body: some View {
+        Circle()
+            .scale(scale)
+            .foregroundColor(foregroundColor)
+        
     }
 }
 

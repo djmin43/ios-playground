@@ -31,6 +31,22 @@ struct ContentView: View {
                         .frame(width: 300, height: 50)
                         .background(Color.black.opacity(0.05))
                         .cornerRadius(10)
+                        .border(.red, width: CGFloat(wrongUsername))
+                    
+                    SecureField("Password", text: $password)
+                        .padding()
+                        .frame(width: 300, height: 50)
+                        .background(Color.black.opacity(0.05))
+                        .cornerRadius(10)
+                        .border(.red, width: CGFloat(wrongPassword))
+                    
+                    Button("Login") {
+                        // Authenticate user
+                    }
+                    .foregroundColor(.white)
+                    .frame(width: 300, height: 50)
+                    .background(Color.blue)
+                    .cornerRadius(10)
                 }
             }
             .navigationBarHidden(true)

@@ -27,10 +27,20 @@ struct ContentView: View {
                         .aspectRatio(contentMode: .fit)
                         .frame(width: 180, height: 180)
                     
-                    
                     Text("76°")
                         .font(.system(size: 70, weight: .medium))
                         .foregroundColor(.white)
+                }
+                
+                HStack {
+                    VStack {
+                        Text("TUE")
+                        Image(systemName: "cloud.sun.fill")
+                            .renderingMode(.original)
+                            .resizable()
+                            .aspectRatio(contentMode: .fit)
+                            .frame(width: 40, height: 40)
+                    }
                 }
                 Spacer()
             }

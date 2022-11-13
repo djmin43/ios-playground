@@ -13,7 +13,6 @@ struct ContentView: View {
             BackgroundView(topColor: .red, bottomColor: .blue)
             VStack {
                 CityTextView(cityName: "seoul")
-            
                 MainWeatherStatusView(imageName: "cloud.sun.fill", temperature: 75 )
            
                 HStack(spacing: 20) {
@@ -37,16 +36,13 @@ struct ContentView: View {
                                    imageName: "snow",
                                    temperature: 41)
                 }
+                
                 Spacer()
                 
                 Button {
                    print("tapped")
                 } label: {
-                   Text("Change Day Time")
-                        .frame(width: 280, height: 50)
-                        .background(Color.white)
-                        .font(.system(size: 20, weight: .bold, design: .default))
-                        .cornerRadius(3.0)
+                    WeatherButton(title: "Change Day Time", textColor: .blue, backgroundColor: .white)
                     
                 }
                 
@@ -119,7 +115,6 @@ struct MainWeatherStatusView: View {
     var imageName: String
     var temperature: Int
     
-    
     var body: some View {
         VStack(spacing: 8) {
             Image(systemName: imageName)
@@ -135,3 +130,4 @@ struct MainWeatherStatusView: View {
         .padding(.bottom, 40)
     }
 }
+

@@ -1,0 +1,447 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AB5C0DED292710FC00ED390D /* dater Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = AB5C0DEC292710FC00ED390D /* dater Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		AB5C0DF2292710FC00ED390D /* daterApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB5C0DF1292710FC00ED390D /* daterApp.swift */; };
+		AB5C0DF4292710FC00ED390D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB5C0DF3292710FC00ED390D /* ContentView.swift */; };
+		AB5C0DF6292710FE00ED390D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB5C0DF5292710FE00ED390D /* Assets.xcassets */; };
+		AB5C0DF9292710FE00ED390D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB5C0DF8292710FE00ED390D /* Preview Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AB5C0DEE292710FC00ED390D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AB5C0DE0292710FC00ED390D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AB5C0DEB292710FC00ED390D;
+			remoteInfo = "dater Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		AB5C0DFF292710FE00ED390D /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				AB5C0DED292710FC00ED390D /* dater Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		AB5C0DE6292710FC00ED390D /* dater.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = dater.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB5C0DEC292710FC00ED390D /* dater Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "dater Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB5C0DF1292710FC00ED390D /* daterApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = daterApp.swift; sourceTree = "<group>"; };
+		AB5C0DF3292710FC00ED390D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		AB5C0DF5292710FE00ED390D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AB5C0DF8292710FE00ED390D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AB5C0DE9292710FC00ED390D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AB5C0DDF292710FC00ED390D = {
+			isa = PBXGroup;
+			children = (
+				AB5C0DF0292710FC00ED390D /* dater Watch App */,
+				AB5C0DE7292710FC00ED390D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AB5C0DE7292710FC00ED390D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AB5C0DE6292710FC00ED390D /* dater.app */,
+				AB5C0DEC292710FC00ED390D /* dater Watch App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AB5C0DF0292710FC00ED390D /* dater Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				AB5C0DF1292710FC00ED390D /* daterApp.swift */,
+				AB5C0DF3292710FC00ED390D /* ContentView.swift */,
+				AB5C0DF5292710FE00ED390D /* Assets.xcassets */,
+				AB5C0DF7292710FE00ED390D /* Preview Content */,
+			);
+			path = "dater Watch App";
+			sourceTree = "<group>";
+		};
+		AB5C0DF7292710FE00ED390D /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				AB5C0DF8292710FE00ED390D /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AB5C0DE5292710FC00ED390D /* dater */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB5C0E00292710FE00ED390D /* Build configuration list for PBXNativeTarget "dater" */;
+			buildPhases = (
+				AB5C0DE4292710FC00ED390D /* Resources */,
+				AB5C0DFF292710FE00ED390D /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AB5C0DEF292710FC00ED390D /* PBXTargetDependency */,
+			);
+			name = dater;
+			productName = dater;
+			productReference = AB5C0DE6292710FC00ED390D /* dater.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		AB5C0DEB292710FC00ED390D /* dater Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB5C0DFC292710FE00ED390D /* Build configuration list for PBXNativeTarget "dater Watch App" */;
+			buildPhases = (
+				AB5C0DE8292710FC00ED390D /* Sources */,
+				AB5C0DE9292710FC00ED390D /* Frameworks */,
+				AB5C0DEA292710FC00ED390D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "dater Watch App";
+			productName = "dater Watch App";
+			productReference = AB5C0DEC292710FC00ED390D /* dater Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AB5C0DE0292710FC00ED390D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					AB5C0DE5292710FC00ED390D = {
+						CreatedOnToolsVersion = 14.1;
+					};
+					AB5C0DEB292710FC00ED390D = {
+						CreatedOnToolsVersion = 14.1;
+					};
+				};
+			};
+			buildConfigurationList = AB5C0DE3292710FC00ED390D /* Build configuration list for PBXProject "dater" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AB5C0DDF292710FC00ED390D;
+			productRefGroup = AB5C0DE7292710FC00ED390D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AB5C0DE5292710FC00ED390D /* dater */,
+				AB5C0DEB292710FC00ED390D /* dater Watch App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AB5C0DE4292710FC00ED390D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB5C0DEA292710FC00ED390D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB5C0DF9292710FE00ED390D /* Preview Assets.xcassets in Resources */,
+				AB5C0DF6292710FE00ED390D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AB5C0DE8292710FC00ED390D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB5C0DF4292710FC00ED390D /* ContentView.swift in Sources */,
+				AB5C0DF2292710FC00ED390D /* daterApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AB5C0DEF292710FC00ED390D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AB5C0DEB292710FC00ED390D /* dater Watch App */;
+			targetProxy = AB5C0DEE292710FC00ED390D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		AB5C0DFA292710FE00ED390D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AB5C0DFB292710FE00ED390D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		AB5C0DFD292710FE00ED390D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"dater Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = 5TXX7B273Y;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = dater;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = github.com.djmin43.dater.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 9.1;
+			};
+			name = Debug;
+		};
+		AB5C0DFE292710FE00ED390D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"dater Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = 5TXX7B273Y;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = dater;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = github.com.djmin43.dater.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 9.1;
+			};
+			name = Release;
+		};
+		AB5C0E01292710FE00ED390D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5TXX7B273Y;
+				INFOPLIST_KEY_CFBundleDisplayName = dater;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = github.com.djmin43.dater;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		AB5C0E02292710FE00ED390D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5TXX7B273Y;
+				INFOPLIST_KEY_CFBundleDisplayName = dater;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = github.com.djmin43.dater;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AB5C0DE3292710FC00ED390D /* Build configuration list for PBXProject "dater" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB5C0DFA292710FE00ED390D /* Debug */,
+				AB5C0DFB292710FE00ED390D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB5C0DFC292710FE00ED390D /* Build configuration list for PBXNativeTarget "dater Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB5C0DFD292710FE00ED390D /* Debug */,
+				AB5C0DFE292710FE00ED390D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB5C0E00292710FE00ED390D /* Build configuration list for PBXNativeTarget "dater" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB5C0E01292710FE00ED390D /* Debug */,
+				AB5C0E02292710FE00ED390D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AB5C0DE0292710FC00ED390D /* Project object */;
+}

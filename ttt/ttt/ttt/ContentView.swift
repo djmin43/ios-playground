@@ -18,6 +18,9 @@ struct ContentView: View {
         GridItem(.flexible())
     ]
     
+    @State private var moves: [Move?] = Array(repeating: nil, count: 9)
+    @State private var isHumansTurn = true
+    
     var body: some View {
         GeometryReader { geometry in
             VStack {
@@ -31,21 +34,26 @@ struct ContentView: View {
                                 .frame(width: geometry.size.width/3 - 15,
                                        height: geometry.size.width/3 - 15)
                             
-                            Image(systemName: "circle")
+                            Image(systemName: moves[i]?.indicator ?? "")
                                 .resizable()
                                 .frame(width: 40, height: 40)
                                 .foregroundColor(.white)
                         }
-                        
+                        .onTapGesture {
+                            if isSquareOccupied(in: moves, forIndex: i) { return }
+                            moves[i] = Move(player: isHumansTurn ? .human : .computer, boardIndex: i)
+                            isHumansTurn.toggle()
+                        }
                     }
                 }
                 Spacer()
-                
             }
             .padding()
-            
         }
-     
+    }
+    
+    func isSquareOccupied(in moves: [Move?], forIndex index: Int)-> Bool {
+        return moves.contains(where: { $0?.boardIndex == index})
     }
 }
 

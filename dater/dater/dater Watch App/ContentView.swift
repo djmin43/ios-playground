@@ -20,8 +20,10 @@ struct ContentView: View {
             }
             Spacer()
             Button(action: addCount) {
-                Text("add count")
+                Label("Add Count", systemImage: "sunrise.fill")
+                    .symbolRenderingMode(.multicolor)
             }
+            .background(.purple.opacity(0.5), in: Capsule())
             Spacer()
         }
     }

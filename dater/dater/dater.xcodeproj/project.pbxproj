@@ -12,8 +12,9 @@
 		AB5C0DF4292710FC00ED390D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB5C0DF3292710FC00ED390D /* ContentView.swift */; };
 		AB5C0DF6292710FE00ED390D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB5C0DF5292710FE00ED390D /* Assets.xcassets */; };
 		AB5C0DF9292710FE00ED390D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB5C0DF8292710FE00ED390D /* Preview Assets.xcassets */; };
-		AB5C0E062927673400ED390D /* TrainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB5C0E052927673400ED390D /* TrainView.swift */; };
+		AB5C0E062927673400ED390D /* TrainCar.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB5C0E052927673400ED390D /* TrainCar.swift */; };
 		AB5C0E08292769FA00ED390D /* Daisies.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB5C0E07292769FA00ED390D /* Daisies.swift */; };
+		AB5C0E0A292856A700ED390D /* TrainCars.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB5C0E09292856A700ED390D /* TrainCars.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,8 +48,9 @@
 		AB5C0DF3292710FC00ED390D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		AB5C0DF5292710FE00ED390D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AB5C0DF8292710FE00ED390D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		AB5C0E052927673400ED390D /* TrainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainView.swift; sourceTree = "<group>"; };
+		AB5C0E052927673400ED390D /* TrainCar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainCar.swift; sourceTree = "<group>"; };
 		AB5C0E07292769FA00ED390D /* Daisies.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Daisies.swift; sourceTree = "<group>"; };
+		AB5C0E09292856A700ED390D /* TrainCars.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainCars.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,11 +84,12 @@
 		AB5C0DF0292710FC00ED390D /* dater Watch App */ = {
 			isa = PBXGroup;
 			children = (
+				AB5C0E09292856A700ED390D /* TrainCars.swift */,
 				AB5C0DF1292710FC00ED390D /* daterApp.swift */,
 				AB5C0DF3292710FC00ED390D /* ContentView.swift */,
 				AB5C0DF5292710FE00ED390D /* Assets.xcassets */,
 				AB5C0DF7292710FE00ED390D /* Preview Content */,
-				AB5C0E052927673400ED390D /* TrainView.swift */,
+				AB5C0E052927673400ED390D /* TrainCar.swift */,
 				AB5C0E07292769FA00ED390D /* Daisies.swift */,
 			);
 			path = "dater Watch App";
@@ -199,7 +202,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				AB5C0DF4292710FC00ED390D /* ContentView.swift in Sources */,
-				AB5C0E062927673400ED390D /* TrainView.swift in Sources */,
+				AB5C0E062927673400ED390D /* TrainCar.swift in Sources */,
+				AB5C0E0A292856A700ED390D /* TrainCars.swift in Sources */,
 				AB5C0E08292769FA00ED390D /* Daisies.swift in Sources */,
 				AB5C0DF2292710FC00ED390D /* daterApp.swift in Sources */,
 			);

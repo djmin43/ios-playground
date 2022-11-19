@@ -8,9 +8,11 @@
 import SwiftUI
 
 struct DefaultSpacing: View {
+    @ScaledMetric var trainCarSpace = 0
+    
     var body: some View {
         Text("Default Spacing")
-        HStack(spacing: 20) {
+        HStack(spacing: trainCarSpace) {
             TrainCar(.rear)
             TrainCar(.middle)
             TrainCar(.front)

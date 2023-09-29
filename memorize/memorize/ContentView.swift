@@ -18,30 +18,36 @@ struct ContentView: View {
         HStack {
             CardView(isFaceUp: true)
             CardView()
-            CardView(isFaceUp: true)
-            CardView(isFaceUp: true)
+            CardView()
+            CardView()
         }
             .foregroundColor(.orange)
             .padding()
     }
 }
 
+//Views are immutable
 struct CardView: View {
-    var isFaceUp: Bool = false
+//    @State is just temporary
+//    State is creating a pointer
+    @State var isFaceUp = false
     
+    // trailing closure syntax
     var body: some View {
         ZStack {
+//            let vs var: let is constant. var can change.
+//            type inference. this 'infer's the type must be rounded rectangle
+            let base = RoundedRectangle(cornerRadius: 12)
             if isFaceUp {
-            RoundedRectangle(cornerRadius: 12)
-                .foregroundColor(.white)
-            RoundedRectangle(cornerRadius: 12)
-                .strokeBorder(lineWidth: 2)
-            Text("👻").font(.largeTitle)
+                base.fill(.white)
+                base.strokeBorder(lineWidth: 2)
+                Text("👻").font(.largeTitle)
             } else {
-                RoundedRectangle(cornerRadius: 12)
+                base.fill()
             }
+        }.onTapGesture {
+            isFaceUp.toggle()
         }
-        
     }
 }
 

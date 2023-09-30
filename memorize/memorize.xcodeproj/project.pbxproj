@@ -7,20 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		AB60B6612AC7F4E000E1DFB3 /* memorize-game.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB60B6602AC7F4E000E1DFB3 /* memorize-game.swift */; };
+		AB60B6612AC7F4E000E1DFB3 /* memory-game.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB60B6602AC7F4E000E1DFB3 /* memory-game.swift */; };
 		AB60B6632AC7F98300E1DFB3 /* emoji-momory-game.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB60B6622AC7F98300E1DFB3 /* emoji-momory-game.swift */; };
 		ABCCFC102AC5909500860C74 /* memorizeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABCCFC0F2AC5909500860C74 /* memorizeApp.swift */; };
-		ABCCFC122AC5909500860C74 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABCCFC112AC5909500860C74 /* ContentView.swift */; };
+		ABCCFC122AC5909500860C74 /* EmojiMemoryGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABCCFC112AC5909500860C74 /* EmojiMemoryGameView.swift */; };
 		ABCCFC142AC5909600860C74 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABCCFC132AC5909600860C74 /* Assets.xcassets */; };
 		ABCCFC172AC5909600860C74 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABCCFC162AC5909600860C74 /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		AB60B6602AC7F4E000E1DFB3 /* memorize-game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "memorize-game.swift"; sourceTree = "<group>"; };
+		AB60B6602AC7F4E000E1DFB3 /* memory-game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "memory-game.swift"; sourceTree = "<group>"; };
 		AB60B6622AC7F98300E1DFB3 /* emoji-momory-game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "emoji-momory-game.swift"; sourceTree = "<group>"; };
 		ABCCFC0C2AC5909500860C74 /* memorize.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = memorize.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABCCFC0F2AC5909500860C74 /* memorizeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = memorizeApp.swift; sourceTree = "<group>"; };
-		ABCCFC112AC5909500860C74 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		ABCCFC112AC5909500860C74 /* EmojiMemoryGameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiMemoryGameView.swift; sourceTree = "<group>"; };
 		ABCCFC132AC5909600860C74 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ABCCFC162AC5909600860C74 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -55,10 +55,10 @@
 		ABCCFC0E2AC5909500860C74 /* memorize */ = {
 			isa = PBXGroup;
 			children = (
-				AB60B6602AC7F4E000E1DFB3 /* memorize-game.swift */,
+				AB60B6602AC7F4E000E1DFB3 /* memory-game.swift */,
 				AB60B6622AC7F98300E1DFB3 /* emoji-momory-game.swift */,
 				ABCCFC0F2AC5909500860C74 /* memorizeApp.swift */,
-				ABCCFC112AC5909500860C74 /* ContentView.swift */,
+				ABCCFC112AC5909500860C74 /* EmojiMemoryGameView.swift */,
 				ABCCFC132AC5909600860C74 /* Assets.xcassets */,
 				ABCCFC152AC5909600860C74 /* Preview Content */,
 			);
@@ -143,9 +143,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ABCCFC122AC5909500860C74 /* ContentView.swift in Sources */,
+				ABCCFC122AC5909500860C74 /* EmojiMemoryGameView.swift in Sources */,
 				AB60B6632AC7F98300E1DFB3 /* emoji-momory-game.swift in Sources */,
-				AB60B6612AC7F4E000E1DFB3 /* memorize-game.swift in Sources */,
+				AB60B6612AC7F4E000E1DFB3 /* memory-game.swift in Sources */,
 				ABCCFC102AC5909500860C74 /* memorizeApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

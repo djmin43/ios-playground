@@ -24,13 +24,7 @@ struct ContentView: View {
             .disabled(viewModel.count <= 0)
         }
     }
-    
-    
-    
 }
-
-
-
 
 
 #Preview {

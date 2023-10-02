@@ -8,17 +8,31 @@
 import SwiftUI
 
 struct ContentView: View {
+    @ObservedObject var viewModel: SingleCounter
+    
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+            Text("\(viewModel.count)")
+                .foregroundColor(.white)
+                .font(.title)
+            Button(action: viewModel.add) {
+                Label("add", systemImage: "plus.circle.fill")
+            }
+            Button(action: viewModel.subtract) {
+                Label("subtract", systemImage: "minus.circle.fill")
+            }
+            .disabled(viewModel.count <= 0)
         }
-        .padding()
     }
+    
+    
+    
 }
 
+
+
+
+
 #Preview {
-    ContentView()
+    ContentView(viewModel: SingleCounter())
 }

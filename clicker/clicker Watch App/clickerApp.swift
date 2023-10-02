@@ -9,9 +9,11 @@ import SwiftUI
 
 @main
 struct clicker_Watch_AppApp: App {
+    @StateObject var counter = SingleCounter()
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView(viewModel: counter)
         }
     }
 }

@@ -16,6 +16,8 @@
 		AB60B69F2AC818FA00E1DFB3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB60B69E2AC818FA00E1DFB3 /* ContentView.swift */; };
 		AB60B6A12AC818FB00E1DFB3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB60B6A02AC818FB00E1DFB3 /* Assets.xcassets */; };
 		AB60B6A42AC818FB00E1DFB3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB60B6A32AC818FB00E1DFB3 /* Preview Assets.xcassets */; };
+		AB60B6AF2ACA96F900E1DFB3 /* counter.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB60B6AE2ACA96F900E1DFB3 /* counter.swift */; };
+		AB60B6B32ACA973C00E1DFB3 /* int-counter.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB60B6B02ACA973300E1DFB3 /* int-counter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,8 @@
 		AB60B69E2AC818FA00E1DFB3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		AB60B6A02AC818FB00E1DFB3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AB60B6A32AC818FB00E1DFB3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AB60B6AE2ACA96F900E1DFB3 /* counter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = counter.swift; sourceTree = "<group>"; };
+		AB60B6B02ACA973300E1DFB3 /* int-counter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "int-counter.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +117,8 @@
 		AB60B69B2AC818FA00E1DFB3 /* clicker Watch App */ = {
 			isa = PBXGroup;
 			children = (
+				AB60B6B02ACA973300E1DFB3 /* int-counter.swift */,
+				AB60B6AE2ACA96F900E1DFB3 /* counter.swift */,
 				AB60B69C2AC818FA00E1DFB3 /* clickerApp.swift */,
 				AB60B69E2AC818FA00E1DFB3 /* ContentView.swift */,
 				AB60B6A02AC818FB00E1DFB3 /* Assets.xcassets */,
@@ -240,6 +246,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AB60B6AF2ACA96F900E1DFB3 /* counter.swift in Sources */,
+				AB60B6B32ACA973C00E1DFB3 /* int-counter.swift in Sources */,
 				AB60B69F2AC818FA00E1DFB3 /* ContentView.swift in Sources */,
 				AB60B69D2AC818FA00E1DFB3 /* clickerApp.swift in Sources */,
 			);

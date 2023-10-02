@@ -8,39 +8,27 @@
 import SwiftUI
 
 struct ContentView: View {
-    @State var count: Int = 0
+    @ObservedObject var viewModel: BaseballUmp
     
     var body: some View {
-        VStack {
-            Image(systemName: "figure.baseball")
-                .imageScale(.large)
-                .foregroundStyle(.indigo)
-            Text("baseball tracker")
-                .frame(maxWidth: .infinity)
-            Spacer()
-            VStack {
-                HStack {
-                    Text("ball: ")
-                }
-                .frame(maxWidth: .infinity, alignment: .leading)
-                HStack {
-                    Text("strike: ")
-                }
-                .frame(maxWidth: .infinity, alignment: .leading)
-                HStack {
-                    Text("out: ")
-                }
-                .frame(maxWidth: .infinity, alignment: .leading)
+        VStack(spacing: 20) {
+            ZStack {
+                Circle()
+                    .foregroundColor(.blue)
+                Text("tap")
+                    .font(.title2)
             }
-            .frame(maxWidth: .infinity, alignment: .leading)
+            .onTapGesture {
+                viewModel.addStrike()
+            }
+            HStack{
+                Text("strike: ")
+                Text("\(viewModel.strike)")
+            }
         }
-        .onTapGesture(count: 2) {
-            count += 1
-        }
-        .padding()
     }
 }
 
 #Preview {
-    ContentView()
+    ContentView(viewModel: BaseballUmp())
 }

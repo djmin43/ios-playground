@@ -12,6 +12,8 @@
 		AB60B6CB2ACAA1DF00E1DFB3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB60B6CA2ACAA1DF00E1DFB3 /* ContentView.swift */; };
 		AB60B6CD2ACAA1E000E1DFB3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB60B6CC2ACAA1E000E1DFB3 /* Assets.xcassets */; };
 		AB60B6D02ACAA1E000E1DFB3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB60B6CF2ACAA1E000E1DFB3 /* Preview Assets.xcassets */; };
+		AB60B6DB2ACAA8DC00E1DFB3 /* ump.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB60B6DA2ACAA8DC00E1DFB3 /* ump.swift */; };
+		AB60B6DD2ACAA8E600E1DFB3 /* baeball-ump.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB60B6DC2ACAA8E600E1DFB3 /* baeball-ump.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +47,8 @@
 		AB60B6CA2ACAA1DF00E1DFB3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		AB60B6CC2ACAA1E000E1DFB3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AB60B6CF2ACAA1E000E1DFB3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AB60B6DA2ACAA8DC00E1DFB3 /* ump.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ump.swift; sourceTree = "<group>"; };
+		AB60B6DC2ACAA8E600E1DFB3 /* baeball-ump.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "baeball-ump.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +82,8 @@
 		AB60B6C72ACAA1DF00E1DFB3 /* baseball-ump Watch App */ = {
 			isa = PBXGroup;
 			children = (
+				AB60B6DC2ACAA8E600E1DFB3 /* baeball-ump.swift */,
+				AB60B6DA2ACAA8DC00E1DFB3 /* ump.swift */,
 				AB60B6C82ACAA1DF00E1DFB3 /* baseball_umpApp.swift */,
 				AB60B6CA2ACAA1DF00E1DFB3 /* ContentView.swift */,
 				AB60B6CC2ACAA1E000E1DFB3 /* Assets.xcassets */,
@@ -192,7 +198,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AB60B6DB2ACAA8DC00E1DFB3 /* ump.swift in Sources */,
 				AB60B6CB2ACAA1DF00E1DFB3 /* ContentView.swift in Sources */,
+				AB60B6DD2ACAA8E600E1DFB3 /* baeball-ump.swift in Sources */,
 				AB60B6C92ACAA1DF00E1DFB3 /* baseball_umpApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

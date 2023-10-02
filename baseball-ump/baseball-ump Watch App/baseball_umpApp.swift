@@ -9,9 +9,11 @@ import SwiftUI
 
 @main
 struct baseball_ump_Watch_AppApp: App {
+    @StateObject var game = BaseballUmp()
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView(viewModel: game)
         }
     }
 }

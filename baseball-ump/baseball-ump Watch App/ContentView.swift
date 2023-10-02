@@ -1,9 +1,3 @@
-//
-//  ContentView.swift
-//  baseball-ump Watch App
-//
-//  Created by dongjoon min on 2023/10/02.
-//
 
 import SwiftUI
 
@@ -18,16 +12,23 @@ struct ContentView: View {
                 Text("tap")
                     .font(.title2)
             }
-            .onTapGesture {
+            .onTapGesture(count: 2) {
+                viewModel.addBall()
+            }
+            .onTapGesture(count: 1) {
                 viewModel.addStrike()
             }
-            HStack{
-                Text("strike: ")
-                Text("\(viewModel.strike)")
+            VStack {
+                Text("inning: \(viewModel.inning)")
+                HStack{
+                    Text("\(viewModel.ball) - \(viewModel.strike)")
+                    Text("out: \(viewModel.out)")
+                }
             }
         }
     }
 }
+
 
 #Preview {
     ContentView(viewModel: BaseballUmp())

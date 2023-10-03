@@ -15,7 +15,7 @@ class EmojiMemoryGame: ObservableObject {
     private static let emojis = ["👻","🎃","🕷️","😈","😈", "🤥", "🥲", "😣", "🐒", "😌"]
     //    return type cannot be inferred in swift.
     private static func createMemoryGame() -> MemoryGame<String> {
-        return MemoryGame(numberOfPairsOfCards: 16) {pairIndex in
+        return MemoryGame(numberOfPairsOfCards: 100) {pairIndex in
             if emojis.indices.contains(pairIndex) {
                 return emojis[pairIndex]
             }

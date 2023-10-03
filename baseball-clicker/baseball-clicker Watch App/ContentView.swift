@@ -6,10 +6,11 @@ struct ContentView: View {
     
     var body: some View {
         VStack {
-            LazyVGrid(columns: [GridItem(), GridItem()]) {
+            LazyVGrid(columns: [GridItem(), GridItem()], spacing: 20) {
                 CircleButton(color: .blue, action: viewModel.addStrike, text: "strike")
                 CircleButton(color: .green, action: viewModel.addBall, text: "ball")
                 CircleButton(color: .red, action: viewModel.addOut, text: "out")
+                
                 ZStack {
                     Circle()
                         .fill(.black)
@@ -22,6 +23,7 @@ struct ContentView: View {
                 .onLongPressGesture(
                     perform: viewModel.reset
                 )
+                .padding(.horizontal, 3)
                 
             }
             
@@ -48,7 +50,9 @@ struct CircleButton: View {
         .onTapGesture(count: 1) {
             action()
         }
+        .padding(.horizontal, 3)
     }
+    
 }
 
 

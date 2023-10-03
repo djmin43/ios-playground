@@ -15,17 +15,11 @@ struct Ump {
     }
     
     mutating func addStrike() {
-        if (out == 2 && strike == 2) {
-            resetAll()
-            inning += 0.5
-            return
-        }
         if (strike < 2) {
             strike += 1
             return
         }
-        out += 1
-        resetBallAndStrike()
+        strike = 0
     }
     
     mutating func addBall() {
@@ -33,17 +27,14 @@ struct Ump {
             ball += 1
             return
         }
-        resetBallAndStrike()
-    }
-    
-    private mutating func resetBallAndStrike() {
-        strike = 0
         ball = 0
     }
     
-    private mutating func resetAll() {
-        strike = 0
-        ball = 0
+    mutating func addOut() {
+        if (out < 2) {
+            out += 1
+            return
+        }
         out = 0
     }
     

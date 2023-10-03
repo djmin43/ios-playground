@@ -22,6 +22,7 @@ class BaseballUmp: ObservableObject {
     
     func addStrike() { model.addStrike() }
     func addBall() { model.addBall() }
+    func addOut() { model.addOut() }
     
 }
 

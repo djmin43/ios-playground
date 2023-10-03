@@ -7,33 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		AB60B6C42ACAA1DF00E1DFB3 /* Baseball Clicker.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = AB60B6C32ACAA1DF00E1DFB3 /* Baseball Clicker.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		AB60B6C92ACAA1DF00E1DFB3 /* baseball_umpApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB60B6C82ACAA1DF00E1DFB3 /* baseball_umpApp.swift */; };
-		AB60B6CB2ACAA1DF00E1DFB3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB60B6CA2ACAA1DF00E1DFB3 /* ContentView.swift */; };
-		AB60B6D02ACAA1E000E1DFB3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB60B6CF2ACAA1E000E1DFB3 /* Preview Assets.xcassets */; };
-		AB60B6DB2ACAA8DC00E1DFB3 /* ump.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB60B6DA2ACAA8DC00E1DFB3 /* ump.swift */; };
-		AB60B6DD2ACAA8E600E1DFB3 /* baeball-ump.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB60B6DC2ACAA8E600E1DFB3 /* baeball-ump.swift */; };
-		ABBBB4EC2ACBD36E0025E8B2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABBBB4EB2ACBD36E0025E8B2 /* Images.xcassets */; };
+		AB4A41DD2ACBD94C0056D60C /* baseball-clicker Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = AB4A41DC2ACBD94C0056D60C /* baseball-clicker Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		AB4A41E22ACBD94C0056D60C /* baseball_clickerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB4A41E12ACBD94C0056D60C /* baseball_clickerApp.swift */; };
+		AB4A41E42ACBD94C0056D60C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB4A41E32ACBD94C0056D60C /* ContentView.swift */; };
+		AB4A41E62ACBD94D0056D60C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB4A41E52ACBD94D0056D60C /* Assets.xcassets */; };
+		AB4A41E92ACBD94D0056D60C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB4A41E82ACBD94D0056D60C /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		AB60B6C52ACAA1DF00E1DFB3 /* PBXContainerItemProxy */ = {
+		AB4A41DE2ACBD94C0056D60C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = AB60B6B72ACAA1DF00E1DFB3 /* Project object */;
+			containerPortal = AB4A41D02ACBD94C0056D60C /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = AB60B6C22ACAA1DF00E1DFB3;
-			remoteInfo = "baseball-ump Watch App";
+			remoteGlobalIDString = AB4A41DB2ACBD94C0056D60C;
+			remoteInfo = "baseball-clicker Watch App";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		AB60B6D62ACAA1E000E1DFB3 /* Embed Watch Content */ = {
+		AB4A41EF2ACBD94D0056D60C /* Embed Watch Content */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
 			dstSubfolderSpec = 16;
 			files = (
-				AB60B6C42ACAA1DF00E1DFB3 /* Baseball Clicker.app in Embed Watch Content */,
+				AB4A41DD2ACBD94C0056D60C /* baseball-clicker Watch App.app in Embed Watch Content */,
 			);
 			name = "Embed Watch Content";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -41,19 +39,16 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		AB60B6BD2ACAA1DF00E1DFB3 /* baseball-ump.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "baseball-ump.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		AB60B6C32ACAA1DF00E1DFB3 /* Baseball Clicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Baseball Clicker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		AB60B6C82ACAA1DF00E1DFB3 /* baseball_umpApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = baseball_umpApp.swift; sourceTree = "<group>"; };
-		AB60B6CA2ACAA1DF00E1DFB3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		AB60B6CF2ACAA1E000E1DFB3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		AB60B6DA2ACAA8DC00E1DFB3 /* ump.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ump.swift; sourceTree = "<group>"; };
-		AB60B6DC2ACAA8E600E1DFB3 /* baeball-ump.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "baeball-ump.swift"; sourceTree = "<group>"; };
-		AB60B6DE2ACBB27D00E1DFB3 /* baseball-ump-Watch-App-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "baseball-ump-Watch-App-Info.plist"; sourceTree = SOURCE_ROOT; };
-		ABBBB4EB2ACBD36E0025E8B2 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		AB4A41D62ACBD94C0056D60C /* baseball-clicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "baseball-clicker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB4A41DC2ACBD94C0056D60C /* baseball-clicker Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "baseball-clicker Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB4A41E12ACBD94C0056D60C /* baseball_clickerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = baseball_clickerApp.swift; sourceTree = "<group>"; };
+		AB4A41E32ACBD94C0056D60C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		AB4A41E52ACBD94D0056D60C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AB4A41E82ACBD94D0056D60C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		AB60B6C02ACAA1DF00E1DFB3 /* Frameworks */ = {
+		AB4A41D92ACBD94C0056D60C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -63,41 +58,38 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		AB60B6B62ACAA1DF00E1DFB3 = {
+		AB4A41CF2ACBD94C0056D60C = {
 			isa = PBXGroup;
 			children = (
-				AB60B6C72ACAA1DF00E1DFB3 /* baseball-ump Watch App */,
-				AB60B6BE2ACAA1DF00E1DFB3 /* Products */,
+				AB4A41E02ACBD94C0056D60C /* baseball-clicker Watch App */,
+				AB4A41D72ACBD94C0056D60C /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		AB60B6BE2ACAA1DF00E1DFB3 /* Products */ = {
+		AB4A41D72ACBD94C0056D60C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				AB60B6BD2ACAA1DF00E1DFB3 /* baseball-ump.app */,
-				AB60B6C32ACAA1DF00E1DFB3 /* Baseball Clicker.app */,
+				AB4A41D62ACBD94C0056D60C /* baseball-clicker.app */,
+				AB4A41DC2ACBD94C0056D60C /* baseball-clicker Watch App.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		AB60B6C72ACAA1DF00E1DFB3 /* baseball-ump Watch App */ = {
+		AB4A41E02ACBD94C0056D60C /* baseball-clicker Watch App */ = {
 			isa = PBXGroup;
 			children = (
-				AB60B6DE2ACBB27D00E1DFB3 /* baseball-ump-Watch-App-Info.plist */,
-				AB60B6DC2ACAA8E600E1DFB3 /* baeball-ump.swift */,
-				AB60B6DA2ACAA8DC00E1DFB3 /* ump.swift */,
-				AB60B6C82ACAA1DF00E1DFB3 /* baseball_umpApp.swift */,
-				AB60B6CA2ACAA1DF00E1DFB3 /* ContentView.swift */,
-				AB60B6CE2ACAA1E000E1DFB3 /* Preview Content */,
-				ABBBB4EB2ACBD36E0025E8B2 /* Images.xcassets */,
+				AB4A41E12ACBD94C0056D60C /* baseball_clickerApp.swift */,
+				AB4A41E32ACBD94C0056D60C /* ContentView.swift */,
+				AB4A41E52ACBD94D0056D60C /* Assets.xcassets */,
+				AB4A41E72ACBD94D0056D60C /* Preview Content */,
 			);
-			path = "baseball-ump Watch App";
+			path = "baseball-clicker Watch App";
 			sourceTree = "<group>";
 		};
-		AB60B6CE2ACAA1E000E1DFB3 /* Preview Content */ = {
+		AB4A41E72ACBD94D0056D60C /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				AB60B6CF2ACAA1E000E1DFB3 /* Preview Assets.xcassets */,
+				AB4A41E82ACBD94D0056D60C /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -105,59 +97,59 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		AB60B6BC2ACAA1DF00E1DFB3 /* baseball-ump */ = {
+		AB4A41D52ACBD94C0056D60C /* baseball-clicker */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AB60B6D72ACAA1E000E1DFB3 /* Build configuration list for PBXNativeTarget "baseball-ump" */;
+			buildConfigurationList = AB4A41F02ACBD94D0056D60C /* Build configuration list for PBXNativeTarget "baseball-clicker" */;
 			buildPhases = (
-				AB60B6BB2ACAA1DF00E1DFB3 /* Resources */,
-				AB60B6D62ACAA1E000E1DFB3 /* Embed Watch Content */,
+				AB4A41D42ACBD94C0056D60C /* Resources */,
+				AB4A41EF2ACBD94D0056D60C /* Embed Watch Content */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				AB60B6C62ACAA1DF00E1DFB3 /* PBXTargetDependency */,
+				AB4A41DF2ACBD94C0056D60C /* PBXTargetDependency */,
 			);
-			name = "baseball-ump";
-			productName = "baseball-ump";
-			productReference = AB60B6BD2ACAA1DF00E1DFB3 /* baseball-ump.app */;
+			name = "baseball-clicker";
+			productName = "baseball-clicker";
+			productReference = AB4A41D62ACBD94C0056D60C /* baseball-clicker.app */;
 			productType = "com.apple.product-type.application.watchapp2-container";
 		};
-		AB60B6C22ACAA1DF00E1DFB3 /* baseball-ump Watch App */ = {
+		AB4A41DB2ACBD94C0056D60C /* baseball-clicker Watch App */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AB60B6D32ACAA1E000E1DFB3 /* Build configuration list for PBXNativeTarget "baseball-ump Watch App" */;
+			buildConfigurationList = AB4A41EC2ACBD94D0056D60C /* Build configuration list for PBXNativeTarget "baseball-clicker Watch App" */;
 			buildPhases = (
-				AB60B6BF2ACAA1DF00E1DFB3 /* Sources */,
-				AB60B6C02ACAA1DF00E1DFB3 /* Frameworks */,
-				AB60B6C12ACAA1DF00E1DFB3 /* Resources */,
+				AB4A41D82ACBD94C0056D60C /* Sources */,
+				AB4A41D92ACBD94C0056D60C /* Frameworks */,
+				AB4A41DA2ACBD94C0056D60C /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "baseball-ump Watch App";
-			productName = "baseball-ump Watch App";
-			productReference = AB60B6C32ACAA1DF00E1DFB3 /* Baseball Clicker.app */;
+			name = "baseball-clicker Watch App";
+			productName = "baseball-clicker Watch App";
+			productReference = AB4A41DC2ACBD94C0056D60C /* baseball-clicker Watch App.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		AB60B6B72ACAA1DF00E1DFB3 /* Project object */ = {
+		AB4A41D02ACBD94C0056D60C /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1500;
 				LastUpgradeCheck = 1500;
 				TargetAttributes = {
-					AB60B6BC2ACAA1DF00E1DFB3 = {
+					AB4A41D52ACBD94C0056D60C = {
 						CreatedOnToolsVersion = 15.0;
 					};
-					AB60B6C22ACAA1DF00E1DFB3 = {
+					AB4A41DB2ACBD94C0056D60C = {
 						CreatedOnToolsVersion = 15.0;
 					};
 				};
 			};
-			buildConfigurationList = AB60B6BA2ACAA1DF00E1DFB3 /* Build configuration list for PBXProject "baseball-ump" */;
+			buildConfigurationList = AB4A41D32ACBD94C0056D60C /* Build configuration list for PBXProject "baseball-clicker" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -165,60 +157,58 @@
 				en,
 				Base,
 			);
-			mainGroup = AB60B6B62ACAA1DF00E1DFB3;
-			productRefGroup = AB60B6BE2ACAA1DF00E1DFB3 /* Products */;
+			mainGroup = AB4A41CF2ACBD94C0056D60C;
+			productRefGroup = AB4A41D72ACBD94C0056D60C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				AB60B6BC2ACAA1DF00E1DFB3 /* baseball-ump */,
-				AB60B6C22ACAA1DF00E1DFB3 /* baseball-ump Watch App */,
+				AB4A41D52ACBD94C0056D60C /* baseball-clicker */,
+				AB4A41DB2ACBD94C0056D60C /* baseball-clicker Watch App */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		AB60B6BB2ACAA1DF00E1DFB3 /* Resources */ = {
+		AB4A41D42ACBD94C0056D60C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AB60B6C12ACAA1DF00E1DFB3 /* Resources */ = {
+		AB4A41DA2ACBD94C0056D60C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AB60B6D02ACAA1E000E1DFB3 /* Preview Assets.xcassets in Resources */,
-				ABBBB4EC2ACBD36E0025E8B2 /* Images.xcassets in Resources */,
+				AB4A41E92ACBD94D0056D60C /* Preview Assets.xcassets in Resources */,
+				AB4A41E62ACBD94D0056D60C /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		AB60B6BF2ACAA1DF00E1DFB3 /* Sources */ = {
+		AB4A41D82ACBD94C0056D60C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AB60B6DB2ACAA8DC00E1DFB3 /* ump.swift in Sources */,
-				AB60B6CB2ACAA1DF00E1DFB3 /* ContentView.swift in Sources */,
-				AB60B6DD2ACAA8E600E1DFB3 /* baeball-ump.swift in Sources */,
-				AB60B6C92ACAA1DF00E1DFB3 /* baseball_umpApp.swift in Sources */,
+				AB4A41E42ACBD94C0056D60C /* ContentView.swift in Sources */,
+				AB4A41E22ACBD94C0056D60C /* baseball_clickerApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		AB60B6C62ACAA1DF00E1DFB3 /* PBXTargetDependency */ = {
+		AB4A41DF2ACBD94C0056D60C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = AB60B6C22ACAA1DF00E1DFB3 /* baseball-ump Watch App */;
-			targetProxy = AB60B6C52ACAA1DF00E1DFB3 /* PBXContainerItemProxy */;
+			target = AB4A41DB2ACBD94C0056D60C /* baseball-clicker Watch App */;
+			targetProxy = AB4A41DE2ACBD94C0056D60C /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		AB60B6D12ACAA1E000E1DFB3 /* Debug */ = {
+		AB4A41EA2ACBD94D0056D60C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -279,7 +269,7 @@
 			};
 			name = Debug;
 		};
-		AB60B6D22ACAA1E000E1DFB3 /* Release */ = {
+		AB4A41EB2ACBD94D0056D60C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -332,19 +322,18 @@
 			};
 			name = Release;
 		};
-		AB60B6D42ACAA1E000E1DFB3 /* Debug */ = {
+		AB4A41ED2ACBD94D0056D60C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"baseball-ump Watch App/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"baseball-clicker Watch App/Preview Content\"";
 				DEVELOPMENT_TEAM = 5TXX7B273Y;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "baseball-ump-Watch-App-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "baseball-clicker";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				INFOPLIST_KEY_WKWatchOnly = YES;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -352,8 +341,8 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "github.com.djmin43.baseball-ump.watchkitapp";
-				PRODUCT_NAME = "Baseball Clicker";
+				PRODUCT_BUNDLE_IDENTIFIER = "github.com.djmin43.baseball-clicker.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -363,19 +352,18 @@
 			};
 			name = Debug;
 		};
-		AB60B6D52ACAA1E000E1DFB3 /* Release */ = {
+		AB4A41EE2ACBD94D0056D60C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"baseball-ump Watch App/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"baseball-clicker Watch App/Preview Content\"";
 				DEVELOPMENT_TEAM = 5TXX7B273Y;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "baseball-ump-Watch-App-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "baseball-clicker";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				INFOPLIST_KEY_WKWatchOnly = YES;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -383,8 +371,8 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "github.com.djmin43.baseball-ump.watchkitapp";
-				PRODUCT_NAME = "Baseball Clicker";
+				PRODUCT_BUNDLE_IDENTIFIER = "github.com.djmin43.baseball-clicker.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -395,42 +383,35 @@
 			};
 			name = Release;
 		};
-		AB60B6D82ACAA1E000E1DFB3 /* Debug */ = {
+		AB4A41F12ACBD94D0056D60C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 5TXX7B273Y;
-				INFOPLIST_KEY_CFBundleDisplayName = "baseball-ump";
+				INFOPLIST_KEY_CFBundleDisplayName = "baseball-clicker";
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "github.com.djmin43.baseball-ump";
+				PRODUCT_BUNDLE_IDENTIFIER = "github.com.djmin43.baseball-clicker";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
-				SUPPORTS_MACCATALYST = NO;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
-		AB60B6D92ACAA1E000E1DFB3 /* Release */ = {
+		AB4A41F22ACBD94D0056D60C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 5TXX7B273Y;
-				INFOPLIST_KEY_CFBundleDisplayName = "baseball-ump";
+				INFOPLIST_KEY_CFBundleDisplayName = "baseball-clicker";
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "github.com.djmin43.baseball-ump";
-				"PRODUCT_BUNDLE_IDENTIFIER[sdk=watchos*]" = "github.com.djmin43.baseball-clicker";
+				PRODUCT_BUNDLE_IDENTIFIER = "github.com.djmin43.baseball-clicker";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
-				SUPPORTS_MACCATALYST = NO;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 1;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -438,34 +419,34 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		AB60B6BA2ACAA1DF00E1DFB3 /* Build configuration list for PBXProject "baseball-ump" */ = {
+		AB4A41D32ACBD94C0056D60C /* Build configuration list for PBXProject "baseball-clicker" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				AB60B6D12ACAA1E000E1DFB3 /* Debug */,
-				AB60B6D22ACAA1E000E1DFB3 /* Release */,
+				AB4A41EA2ACBD94D0056D60C /* Debug */,
+				AB4A41EB2ACBD94D0056D60C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AB60B6D32ACAA1E000E1DFB3 /* Build configuration list for PBXNativeTarget "baseball-ump Watch App" */ = {
+		AB4A41EC2ACBD94D0056D60C /* Build configuration list for PBXNativeTarget "baseball-clicker Watch App" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				AB60B6D42ACAA1E000E1DFB3 /* Debug */,
-				AB60B6D52ACAA1E000E1DFB3 /* Release */,
+				AB4A41ED2ACBD94D0056D60C /* Debug */,
+				AB4A41EE2ACBD94D0056D60C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AB60B6D72ACAA1E000E1DFB3 /* Build configuration list for PBXNativeTarget "baseball-ump" */ = {
+		AB4A41F02ACBD94D0056D60C /* Build configuration list for PBXNativeTarget "baseball-clicker" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				AB60B6D82ACAA1E000E1DFB3 /* Debug */,
-				AB60B6D92ACAA1E000E1DFB3 /* Release */,
+				AB4A41F12ACBD94D0056D60C /* Debug */,
+				AB4A41F22ACBD94D0056D60C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = AB60B6B72ACAA1DF00E1DFB3 /* Project object */;
+	rootObject = AB4A41D02ACBD94C0056D60C /* Project object */;
 }

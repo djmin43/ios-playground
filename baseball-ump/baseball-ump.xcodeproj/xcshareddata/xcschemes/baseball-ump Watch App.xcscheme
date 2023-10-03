@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "AB60B6C22ACAA1DF00E1DFB3"
-               BuildableName = "baseball-ump Watch App.app"
+               BuildableName = "Baseball Clicker.app"
                BlueprintName = "baseball-ump Watch App"
                ReferencedContainer = "container:baseball-ump.xcodeproj">
             </BuildableReference>
@@ -58,7 +58,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "AB60B6C22ACAA1DF00E1DFB3"
-            BuildableName = "baseball-ump Watch App.app"
+            BuildableName = "Baseball Clicker.app"
             BlueprintName = "baseball-ump Watch App"
             ReferencedContainer = "container:baseball-ump.xcodeproj">
          </BuildableReference>
@@ -75,7 +75,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "AB60B6C22ACAA1DF00E1DFB3"
-            BuildableName = "baseball-ump Watch App.app"
+            BuildableName = "Baseball Clicker.app"
             BlueprintName = "baseball-ump Watch App"
             ReferencedContainer = "container:baseball-ump.xcodeproj">
          </BuildableReference>

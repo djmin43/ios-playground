@@ -31,4 +31,8 @@ class BaseballClicker: ObservableObject {
         model.addOut()
     }
     
+    func reset() {
+        model.reset()
+    }
+    
 }

@@ -44,4 +44,10 @@ struct Clicker {
         out = 0
     }
     
+    mutating func reset() {
+        strike = 0
+        ball = 0
+        out = 0
+    }
+    
 }

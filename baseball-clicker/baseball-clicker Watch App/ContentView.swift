@@ -12,10 +12,17 @@ struct ContentView: View {
                 CircleButton(color: .red, action: viewModel.addOut, text: "out")
                 ZStack {
                     Circle()
-                        .strokeBorder(.white, lineWidth: 2)
-                        .fill(.clear)
+                        .fill(.black)
+                        .overlay(
+                            Circle()
+                                .stroke(.white, lineWidth: 4)
+                        )
                     Text("\(viewModel.ball)  - \(viewModel.strike)\n\(viewModel.out) out")
                 }
+                .onLongPressGesture(
+                    perform: viewModel.reset
+                )
+                
             }
             
         }
@@ -31,8 +38,11 @@ struct CircleButton: View {
     var body: some View {
         ZStack {
             Circle()
-                .strokeBorder(color, lineWidth: 2)
-                .fill(.clear)
+                .fill(.black)
+                .overlay(
+                    Circle()
+                        .stroke(color, lineWidth: 4)
+                )
             Text(text)
         }
         .onTapGesture(count: 1) {

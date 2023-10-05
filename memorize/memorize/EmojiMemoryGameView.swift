@@ -18,10 +18,8 @@ struct EmojiMemoryGameView: View {
     
     var body: some View {
         VStack{
-            ScrollView {
-                cards
-                    .animation(.default, value: viewModel.cards)
-            }
+            cards
+                .animation(.default, value: viewModel.cards)
             Button("Shuffle") {
                 viewModel.shuffle()
             }
@@ -30,45 +28,16 @@ struct EmojiMemoryGameView: View {
     }
     
     private var cards: some View {
-        GeometryReader { geometry in
-            let gridItemSize = gridItemWidthThatFits(count: viewModel.cards.count, size: geometry.size, atAspectRatio: aspectRatio)
-            LazyVGrid(columns: [GridItem(.adaptive(minimum: 95), spacing: 0)], spacing: 0) {
-                // arguments to closures
-                ForEach(viewModel.cards) { card in
-                    CardView(card)
-                        .aspectRatio(aspectRatio, contentMode: .fit)
-                        .padding(4)
-                        .onTapGesture {
-                            viewModel.choose(card)
-                        }
+        AspectVGrid(items: viewModel.cards, aspectRatio: aspectRatio) { card in
+            CardView(card)
+                .padding(4)
+                .onTapGesture {
+                    viewModel.choose(card)
                 }
-            }
         }
         .foregroundColor(.orange)
     }
     
-    func gridItemWidthThatFits(
-        count: Int,
-        size: CGSize,
-        atAspectRatio aspectRatio: CGFloat
-    )  -> CGFloat {
-        // this is scoping
-        let count = CGFloat(count)
-        var columnCount = 1.0
-        repeat {
-            let width = size.width / columnCount
-            let height = width / aspectRatio
-            
-            let rowCount = (count / columnCount).rounded(.up)
-            if rowCount * height < size.height {
-                return (size.width / columnCount).rounded(.down)
-            }
-            
-            columnCount += 1
-        } while columnCount < count
-        return min(size.width / count, size.height * aspectRatio).rounded(.down)
-        
-    }
 }
 
 //Views are immutable

@@ -48,8 +48,8 @@ struct CardView: View {
             CardView(CardView.Card(content: "X", id: "test1"))
         }
         HStack {
+            CardView(CardView.Card(isFaceUp: true, isMatched: true, content: "This is a very long string and I hope it fits", id: "test1"))
             CardView(CardView.Card(isFaceUp: true, isMatched: true, content: "X", id: "test1"))
-            CardView(CardView.Card(isMatched: true, content: "X", id: "test1"))
         }
         .padding()
         .foregroundColor(.green)

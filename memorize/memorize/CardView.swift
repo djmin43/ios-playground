@@ -27,6 +27,9 @@ struct CardView: View {
             Group {
                 base.fill(.white)
                 base.strokeBorder(lineWidth: 2)
+                Circle()
+                    .opacity(0.5)
+                    .padding()
                 Text(card.content).font(.system(size: 200))
                     .minimumScaleFactor(0.01)
                     .multilineTextAlignment(.center)

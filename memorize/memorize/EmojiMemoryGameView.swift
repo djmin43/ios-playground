@@ -14,11 +14,13 @@ struct EmojiMemoryGameView: View {
     //    Computed Property: this var body is "computed" property. it's read-only. it's computated everytime it's called.
     //    creating instaces of structs named parameters, cparameter defaults
     private let aspectRatio: CGFloat = 2/3
+    private let spacing: CGFloat = 4
     @ObservedObject var viewModel: EmojiMemoryGame
     
     var body: some View {
         VStack{
             cards
+                .foregroundColor(viewModel.color)
                 .animation(.default, value: viewModel.cards)
             Button("Shuffle") {
                 viewModel.shuffle()
@@ -30,12 +32,11 @@ struct EmojiMemoryGameView: View {
     private var cards: some View {
         AspectVGrid(viewModel.cards, aspectRatio: aspectRatio) { card in
             CardView(card)
-                .padding(4)
+                .padding(spacing)
                 .onTapGesture {
                     viewModel.choose(card)
                 }
         }
-        .foregroundColor(.orange)
     }
     
 }

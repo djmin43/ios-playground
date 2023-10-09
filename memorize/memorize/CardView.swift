@@ -21,7 +21,6 @@ struct CardView: View {
     // trailing closure syntax
     var body: some View {
         Pie(endAngle: .degrees(240))
-            .stroke(lineWidth: 6)
             .opacity(Constants.Pie.opacity)
             .overlay(
                 Text(card.content).font(.system(size: Constants.FontSize.largest))
@@ -31,8 +30,8 @@ struct CardView: View {
                     .padding(Constants.Pie.inset)
             )
             .padding(Constants.inset)
-            .modifier(Cardify(isFaceUp: card.isFaceUp))
-        .opacity(card.isFaceUp || !card.isMatched ? 1: 0)
+            .cardify(isFaceUp: card.isFaceUp)
+            .opacity(card.isFaceUp || !card.isMatched ? 1: 0)
     }
     
     

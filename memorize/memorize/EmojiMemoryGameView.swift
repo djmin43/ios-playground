@@ -13,6 +13,7 @@ struct EmojiMemoryGameView: View {
     //    why 'some'? the type of this variable has to be any struct in the world as long as it behaves like a View.
     //    Computed Property: this var body is "computed" property. it's read-only. it's computated everytime it's called.
     //    creating instaces of structs named parameters, cparameter defaults
+    typealias Card = MemoryGame<String>.Card
     private let aspectRatio: CGFloat = 2/3
     private let spacing: CGFloat = 4
     @ObservedObject var viewModel: EmojiMemoryGame
@@ -48,12 +49,17 @@ struct EmojiMemoryGameView: View {
         AspectVGrid(viewModel.cards, aspectRatio: aspectRatio) { card in
             CardView(card)
                 .padding(spacing)
+                .overlay(FlyingNumber(number: scoreChange(causedBy: card)))
                 .onTapGesture {
                     withAnimation(.easeInOut(duration: 1)) {
                         viewModel.choose(card)
                     }
                 }
         }
+    }
+    
+    private func scoreChange(causedBy: Card) -> Int {
+        return 0
     }
     
 }

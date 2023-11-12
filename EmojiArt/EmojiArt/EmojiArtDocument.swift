@@ -26,4 +26,15 @@ class EmojiArtDocument: ObservableObject {
         emojiArt.background = url
     }
     
+    func addEmoji(_ emoji: String, at position: Emoji.Position, size: CGFloat) {
+        emojiArt.addEmoji(emoji, at: position, size: Int(size))
+        
+    }
+    
+}
+
+extension EmojiArt.Emoji {
+    var font: Font {
+        Font.system(size: CGFloat(size))
+    }
 }
